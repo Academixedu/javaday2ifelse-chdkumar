@@ -8,7 +8,7 @@ public class StudentGradeEvaluation {
 
         // Prompt the user to enter their name
         System.out.print("Enter your name: ");
-        String name=s.nextline();
+        String name=s.nextLine();
 
         // Prompt the user to enter their age
         System.out.println("Enter your age: ");
@@ -18,6 +18,7 @@ public class StudentGradeEvaluation {
         // Prompt the user to enter their exam score
         System.out.println("Enter your exam score: ");
         int score=s.nextInt();
+
         System.out.println("name: "+name);
         System.out.println("age: "+Age);
         System.out.println("Score: "+score);
@@ -29,7 +30,7 @@ public class StudentGradeEvaluation {
             System.out.println("Grade: A");
         }
         else if(score>=80&&score<89) {
-            System.out.println("grade: B")
+            System.out.println("grade: B");
             
         }
         else if(score>=70&&score<79){
